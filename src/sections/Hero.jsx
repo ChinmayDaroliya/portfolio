@@ -1,6 +1,7 @@
 import React from 'react';
 import { words } from '../constants';
 import Button from '../components/Button';
+import HeroExperience from '../components/HeroModels/HeroExperience';
 
 const Hero = () => {
     return (
@@ -53,7 +54,9 @@ const Hero = () => {
             
             {/* 3D modal */}
             <figure>
-
+                <div className='hero-3d-layout'>
+                    <HeroExperience/>
+                </div>            
             </figure>
         </div>
 
