@@ -33,7 +33,7 @@ const navLinks = [
     link:"#skills"
   },
   {
-    name:"Testimonials",
+    name:"Journey",
     link:"#testimonials"
   }
 
@@ -138,6 +138,53 @@ const techStackIcons = [
 ];
 
 
+const testimonials = [
+  {
+    name: "My Journey",
+    mentions: "@beginning",
+    review:
+      "Started my tech journey with curiosity for problem-solving, explored Java, JavaScript, and web development, and gradually built projects like games and clones to strengthen my foundation.",
+    imgPath: "",
+  },
+  {
+    name: "Work Ethic",
+    mentions: "@dedication",
+    review:
+      "I believe in consistency, attention to detail, and learning by doing. Even when challenges arise, I push through with persistence and focus on delivering quality results.",
+    imgPath: "",
+  },
+  {
+    name: "Future Goals",
+    mentions: "@vision",
+    review:
+      "My goal is to grow into a strong full-stack developer, contribute to impactful projects, and work with cutting-edge technologies like React, Spring Boot, and cloud systems.",
+    imgPath: "",
+  },
+  {
+    name: "Team Collaboration",
+    mentions: "@teamwork",
+    review:
+      "I enjoy brainstorming ideas, sharing knowledge, and learning from peers. I believe good communication and collaboration are key to building successful projects.",
+    imgPath: "",
+  },
+  {
+    name: "Learning Mindset",
+    mentions: "@growth",
+    review:
+      "I approach every project as an opportunity to learn something new. I actively seek feedback and keep refining my skills to stay adaptable in a fast-changing tech world.",
+    imgPath: "",
+  },
+  {
+    name: "Passion for Tech",
+    mentions: "@innovation",
+    review:
+      "Technology excites me because it allows us to solve real-world problems creatively. My passion lies in turning ideas into functional solutions that make an impact.",
+    imgPath: "",
+  },
+];
+
+
+
 
 export {
   words,
@@ -146,5 +193,6 @@ export {
   abilities,
   expCards,
   techStackIcons,
-
+  testimonials,
+  
 };
