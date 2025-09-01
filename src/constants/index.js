@@ -19,7 +19,28 @@ const counterItems = [
 
 ];
 
+const navLinks = [
+  {
+    name:"work",
+    link:"#work"
+  },
+  {
+    name:"Experience",
+    link:"#experience"
+  },  
+  {
+    name:"Skills",
+    link:"#skills"
+  },
+  {
+    name:"Testimonials",
+    link:"#testimonials"
+  }
+
+];
+
 export {
   words,
   counterItems,
+  navLinks,
 };
