@@ -12,10 +12,11 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 1, suffix: "", label: "Internship Completed" },
+  { value: 400, suffix: "+", label: "Training Hours" },
   { value: 10, suffix: "+", label: "Projects Completed" },
   { value: 5, suffix: "+", label: "Certifications Earned" },
-  { value: 400, suffix: "+", label: "Training Hours" },
+  { value: 1, suffix: "", label: "Internship Completed" },
+
 ];
 
 export {
