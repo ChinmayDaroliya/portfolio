@@ -75,3 +75,29 @@ The goal of this portfolio is to **stand out from traditional static sites** by 
 ```bash
 git clone https://github.com/ChinmayDaroliya/3d-portfolio.git
 cd 3d-portfolio
+
+
+Installation Steps
+1️⃣ Clone the Repository
+bashgit clone https://github.com/ChinmayDaroliya/3d-portfolio.git
+cd 3d-portfolio
+2️⃣ Install Dependencies
+bashnpm install
+# or
+yarn install
+3️⃣ Set Up Environment Variables
+
+Copy the example environment file:
+
+bashcp .env.example .env.local
+
+Fill in your EmailJS credentials in .env.local:
+
+envNEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
+4️⃣ Run the Development Server
+bashnpm run dev
+# or
+yarn dev
+Now open http://localhost:3000 in your browser 🎉
