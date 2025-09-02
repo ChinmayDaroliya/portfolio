@@ -183,7 +183,28 @@ const testimonials = [
   },
 ];
 
-
+const socialImgs = [
+  {
+    name: "insta",
+    imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/chinmay.075/"
+  },
+  {
+    name: "github",
+    imgPath: "/images/github.svg",
+    link: "https://github.com/ChinmayDaroliya/"
+  },
+  {
+    name: "x",
+    imgPath: "/images/x.png",
+    link: "https://x.com/ChinmayDaroliya"
+  },
+  {
+    name: "linkedin",
+    imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/chinmaydaroliya/"
+  },
+];
 
 
 export {
@@ -194,5 +215,6 @@ export {
   expCards,
   techStackIcons,
   testimonials,
+  socialImgs,
   
 };

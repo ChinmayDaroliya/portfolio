@@ -56,12 +56,20 @@ const ShowcaseSection = () => {
                             <img src="/images/project1.png" alt="Boom interface" />
                         </div>
                         <div className="text-content">
+                             <a
+                                href="https://fin-port.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:underline"
+                            >
                             <h2>
                                 FinPort - Modern Banking Application
                             </h2>
+                            </a>
                             <p className="text-white-50 md:text-xl">
                                 FinPort is a full-stack banking application built with Next.js that provides users with a seamless digital banking experience, including account management, transactions, and payment transfers.
                             </p>
+                            
                         </div>
                     </div>
 
@@ -74,14 +82,28 @@ const ShowcaseSection = () => {
                                     alt="BOOM Streaming Platform"
                                 />
                             </div>
+                          <a
+                                href="https://boom-53at.onrender.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:underline"
+                            >
                             <h2>BOOM Platform - Full-Stack Video Streaming Platform</h2>
+                            </a>
                         </div>
 
                         <div className="project" ref={Project3}>
                             <div className="image-wrapper bg-[#FFE7EB]">
                                 <img src="/images/project3.png" alt="GeoWords" />
                             </div>
-                            <h2>GeoWords – A What3Words-Inspired Location System for India</h2>
+                            <a
+                                href="https://geo-words.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:underline"
+                            >
+                                <h2>GeoWords – A What3Words-Inspired Location System for India</h2>
+                             </a>   
                         </div>
                     </div>
 
