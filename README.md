@@ -1,9 +1,9 @@
 <div align="center">
-  <br />
+  <!-- <br />
     <a href="https://github.com/ChinmayDaroliya" target="_blank">
       <img src="public/images/readme.png" alt="Project Banner">
     </a>
-  <br />
+  <br /> -->
 
   <div>
     <img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" />
