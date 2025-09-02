@@ -46,11 +46,28 @@ const NavBar = () =>{
                     </ul>
                 </nav>
 
+{/* Buttons */}
+
+            <div className="flex items-center gap-3">            
                 <a href="#contact" className="contact-btn group">
                     <div className="inner">
                         <span>Contact me</span>
                     </div>
                 </a>
+
+                {/* Resume button */}
+                <a
+                    href="/Chinmay-Resume.pdf" 
+                    target="_blank" // open in new tab
+                    rel="noopener noreferrer"
+                    className="contact-btn group "
+                    download // optional: forces download
+                >
+                    <div className="inner">
+                        <span>Resume</span>
+                    </div>
+                </a>
+                </div>
             </div>
         </header>
     )
