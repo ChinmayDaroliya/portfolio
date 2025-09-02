@@ -53,7 +53,7 @@ const ShowcaseSection = () => {
                     {/* Left */}
                     <div className="first-project-wrapper" ref={Project1}>
                         <div className="image-wrapper">
-                            <img src="/images/Project1.PNG" alt="Boom interface" />
+                            <img src="/images/project1.png" alt="Boom interface" />
                         </div>
                         <div className="text-content">
                             <h2>
@@ -70,7 +70,7 @@ const ShowcaseSection = () => {
                         <div className="project" ref={Project2}>
                             <div className="image-wrapper bg-[#FFEFDB]">
                                 <img 
-                                    src="/images/Project2.PNG"
+                                    src="/images/project2.png"
                                     alt="BOOM Streaming Platform"
                                 />
                             </div>
@@ -79,7 +79,7 @@ const ShowcaseSection = () => {
 
                         <div className="project" ref={Project3}>
                             <div className="image-wrapper bg-[#FFE7EB]">
-                                <img src="/images/Project3.PNG" alt="GeoWords" />
+                                <img src="/images/project3.png" alt="GeoWords" />
                             </div>
                             <h2>GeoWords – A What3Words-Inspired Location System for India</h2>
                         </div>
